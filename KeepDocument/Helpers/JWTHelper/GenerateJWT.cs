@@ -34,7 +34,7 @@ namespace KeepDocument.Helpers.JWTHelper
                  audience: _jwtOption.Audience,
                  claims: claims,
                  expires: DateTime.Now.AddHours(1),
-                    signingCredentials: creds
+                 signingCredentials: creds
 
                 );
 

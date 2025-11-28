@@ -11,5 +11,7 @@ namespace KeepDocument.Data.DBContext
         }
 
         public DbSet<ApplicationUser> Users { get; set; }
+
+        public DbSet<Document> Documents { get; set; }  
     }
 }

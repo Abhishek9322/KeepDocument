@@ -19,6 +19,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(option =>
 
  builder.Services.AddScoped<IUserRepository, UserRepository>();  //register repository
 builder.Services.AddScoped<IAuthService,AuthService>();
+
+builder.Services.AddScoped<IDocumentRepository, DocumentRepository>();
+builder.Services.AddScoped<IDocumentService, DocumentService>();
 builder.Services.AddScoped<GenerateJWT>();   
 
 builder.Services.AddSwaggerConfig(); //swagger configuration extension method
