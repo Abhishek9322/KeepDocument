@@ -3,6 +3,7 @@ using KeepDocument.Repositories.Interfaces;
 
 using KeepDocument.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 
 namespace KeepDocument.Repositories.Implementations
 {
@@ -32,6 +33,13 @@ namespace KeepDocument.Repositories.Implementations
             await _context.SaveChangesAsync();
 
             return document;
+        }
+
+        public async Task<List<Document>> GetDocumentsByUser(string UserId)
+        {
+            return await _context.Documents
+                 .Where(d => d.UserId == UserId)
+                 .ToListAsync();
         }
     }
 }
