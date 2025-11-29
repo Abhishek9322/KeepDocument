@@ -6,5 +6,6 @@ namespace KeepDocument.Services.Interfaces
     public interface IDocumentService
     {
         Task<Document> UploadDocument(DocumentUploadDto dto, string userId);
+        Task<IEnumerable<DocumentResponseDto>> GetDocumentsByUser(string userId);   
     }
 }

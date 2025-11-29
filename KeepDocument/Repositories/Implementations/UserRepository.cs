@@ -19,7 +19,7 @@ namespace KeepDocument.Repositories.Implementations
       
         public async Task AddUserAsync(ApplicationUser user)
         {
-             await _context.AddAsync(user);
+             await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
         }
 

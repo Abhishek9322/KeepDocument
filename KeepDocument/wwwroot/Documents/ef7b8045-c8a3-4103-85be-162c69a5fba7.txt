@@ -1,0 +1,147 @@
+✅ 10️⃣ Bonus Topics
+
+If you want to stand out, learn:
+
+Dependency Injection (deeply)
+
+Middleware creation
+
+Repository pattern
+
+Unit testing with xUnit or MSTest
+
+Swagger customization
+
+Docker basics (optional but impressive)
+
+
+
+💬 9️⃣ Soft / Communication Questions
+
+Even for developers, soft skills matter.
+
+🔹 Example Questions
+
+Why are you looking for a new opportunity?
+
+What new things did you learn in your last project?
+
+What is your strongest skill in .NET?
+
+Where do you see yourself in 2–3 years?
+
+
+🧠 8️⃣ HR + Project-Based Questions
+
+They’ll want to know what you built and your role.
+
+🔹 Example Questions
+
+Tell me about your project.
+
+What challenges did you face and how did you solve them?
+
+What was your role in the team?
+
+How do you manage version control (Git)?
+
+How do you test your API before deployment?
+
+
+💾 7️⃣ SQL (if applicable)
+
+If your project uses SQL Server, they’ll ask basic queries.
+
+🔹 Example Questions
+
+What is a primary key / foreign key?
+
+What is the difference between INNER JOIN and LEFT JOIN?
+
+What is a stored procedure?
+
+What is indexing and why do we use it?
+
+Write a query to get top 5 records.
+
+
+
+🧩 6️⃣ Practical/Scenario-Based Questions
+
+They’ll check how you think as a developer.
+
+🔹 Example Scenarios
+
+How do you handle errors in production APIs?
+
+What will you do if your API is very slow?
+
+How do you log all requests and responses?
+
+What will you do if the DB connection fails?
+
+How do you test your APIs? (Postman / Swagger / Unit Tests)
+
+🧰 5️⃣ Advanced C# Concepts
+
+They might check a few language features.
+
+🔹 Example Questions
+
+What is a delegate? What is an event?
+
+What is LINQ? Give examples.
+
+What are async and await?
+
+What is a Task in C#?
+
+What is exception handling and what are best practices?
+
+What is a static class?
+
+🧠 Example:
+
+How does async/await improve performance in APIs?
+
+🔐 4️⃣ Authentication & Authorization
+
+If you have worked with JWT, they’ll check your understanding.
+
+🔹 Example Questions
+
+What is JWT and why is it used?
+
+What are claims in JWT?
+
+How does the token validation process work?
+
+How can you protect API endpoints based on roles?
+
+What is the difference between Authentication and Authorization?
+
+🧱 3️⃣ Entity Framework Core (Database Layer)
+
+They’ll expect you to know how to connect .NET Core with SQL Server.
+
+🔹 Example Questions
+
+What is EF Core?
+
+What is the difference between Database First and Code First approach?
+
+What is a DbContext?
+
+What is the use of DbSet?
+
+What is migration and how do you create one?
+
+How do you fetch related data using Include()?
+
+What is lazy loading vs eager loading?
+
+What is the difference between Add(), Update(), and Attach()?
+
+How do you handle one-to-many or many-to-many relationships?
+
+What happens when you call SaveChanges()?
